@@ -26,7 +26,7 @@ public class Esercizio2Main {
 
         List<Integer> list = new ArrayList<>();
         for (int i = 0; i < N; i++) {
-            list.add(random.nextInt(0, 100));
+            list.add(random.nextInt(101));
         }
         Collections.sort(list);
         System.out.println(list);
