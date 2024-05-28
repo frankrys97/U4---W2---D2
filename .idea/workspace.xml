@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c68e797-f228-471b-9d66-3e4a69d77602" name="Changes" comment="ex3">
+    <list default="true" id="6c68e797-f228-471b-9d66-3e4a69d77602" name="Changes" comment="ex2 with fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/esercizio2/Esercizio2Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/esercizio2/Esercizio2Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,12 +92,21 @@
       <option name="project" value="LOCAL" />
       <updated>1716905753742</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ex2 with fixes">
+      <option name="closed" value="true" />
+      <created>1716910284737</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716910284737</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ex2" />
     <MESSAGE value="ex3" />
-    <option name="LAST_COMMIT_MESSAGE" value="ex3" />
+    <MESSAGE value="ex2 with fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="ex2 with fixes" />
   </component>
 </project>

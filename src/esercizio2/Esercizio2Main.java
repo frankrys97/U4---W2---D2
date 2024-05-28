@@ -42,7 +42,7 @@ public class Esercizio2Main {
         return nuovalista;
     }
 
-    public static void stampaValoriPari(List<Integer> list, boolean b) {
+ /*   public static void stampaValoriPari(List<Integer> list, boolean b) {
         if (b) {
             for (int i = 0; i < list.size(); i++) {
                 if (i % 2 == 0) {
@@ -51,6 +51,29 @@ public class Esercizio2Main {
             }
         } else {
             for (int i = 0; i < list.size(); i++) {
+                if (i % 2 != 0) {
+                    System.out.println(list.get(i));
+                }
+            }
+        }
+    }*/
+
+
+  /*  public static void stampaValoriPari(List<Integer> list, boolean b) {
+        for (int i = 0; i < list.size(); i++) {
+            if ((b && i % 2 == 0) || (!b && i % 2 != 0)) {
+                System.out.println(list.get(i));
+            }
+        }
+    }*/
+
+    public static void stampaValoriPari(List<Integer> list, boolean b) {
+        for (int i = 0; i < list.size(); i++) {
+            if (b) {
+                if (i % 2 == 0) {
+                    System.out.println(list.get(i));
+                }
+            } else {
                 if (i % 2 != 0) {
                     System.out.println(list.get(i));
                 }
